@@ -1,2 +1,17 @@
 # invert
-A simple invert function implementation using python and cv2
+Image inversion in python (OpenCV & numpy)
+
+## Usage
+### example
+```
+import cv2
+from invert import invert
+
+image = cv2.imread('house.tiff')
+
+new = invert(image)
+cv2.imwrite('invertedhouse.tiff', new)
+```
+**Original Image**
+
+**Inverted**
