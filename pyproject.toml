@@ -2,7 +2,7 @@
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 [project]
-name = "invert_garbage1010"
+name = "pyinvert"
 version = "0.0.1"
 authors = [
   { name="Rory Meeduri", email="rory5827@outlook.com" },
