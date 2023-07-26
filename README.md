@@ -5,7 +5,7 @@ Image inversion in python (OpenCV & numpy)
 ### example
 ```
 import cv2
-from invert import invert
+from pyinvert import invert
 
 image = cv2.imread('house.tiff')
 
